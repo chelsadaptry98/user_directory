@@ -1,0 +1,70 @@
+.userProfile {
+    // display: flex;
+    // margin: 10px;
+}
+
+.userDetails{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    line-height: 22px;
+}
+
+.userHeader{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    line-height: 22px;
+}
+.clockButton {
+    background-color: lightgreen;
+    width: 100px;
+    height: 27px;
+    margin-left: 8px;
+}
+
+.clock{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.textMargin {
+    margin-bottom: 10px;
+}
+
+.clockContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.post{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    line-height: 22px;
+}
+
+.postContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px; 
+    
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+    }
+}
